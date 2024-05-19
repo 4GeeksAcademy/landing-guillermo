@@ -4,7 +4,11 @@ const Card = () => {
   return (
     <div className="m-5">
       <div>
-        <img className="rounded-t-lg sm:size-full" src="src/assets/500x325.jpg" alt="" />
+        <img
+          className="rounded-t-lg sm:size-full"
+          src="src/assets/500x325.jpg"
+          alt=""
+        />
       </div>
       <h1 className="font-bold text-center my-5 text-lime-200xl	">Card title</h1>
       <p className="my-3">
