@@ -22,32 +22,32 @@ function DropDown() {
       </button>
       {/* Menú desplegable */}
       {isOpen && (
-        <div className="absolute right-0 w-screen bg-slate-700 rounded-b-lg mt-2">
+        <div className="absolute right-0 w-screen bg-slate-700 rounded-b-lg mt-2 px-5">
           {/* Opciones del menú */}
           <a
             href="#"
-            className="block px-5 py-2 text-white"
+            className="block py-2 text-white"
             onClick={closeMenu}
           >
             Home
           </a>
           <a
             href="#"
-            className="block px-5 py-2 text-white"
+            className="block py-2 text-white"
             onClick={closeMenu}
           >
             About
           </a>
           <a
             href="#"
-            className="block px-5 py-2 text-white"
+            className="block py-2 text-white"
             onClick={closeMenu}
           >
             Services
           </a>
           <a
             href="#"
-            className="block px-5 py-2 text-white"
+            className="block py-2 text-white"
             onClick={closeMenu}
           >
             Contact

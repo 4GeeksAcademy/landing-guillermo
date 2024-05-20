@@ -8,7 +8,7 @@ const ContainerCards = () => {
         <Card title="Card Title 1" description="Lorem ipsum dolor sit amet consectetur adipiscing elit malesuada ante, mus fusce maecenas eros turpis eleifend lacus."/>
         <Card title="Card Title 2" description="Lorem ipsum dolor sit amet consectetur adipiscing, elit turpis natoque odio imperdiet, porta risus convallis fusce habitant."/>
         <Card title="Card Title 3"/>
-        <Card title="Card Title 4"/>
+        <Card title="Card Title 4" image="src/assets/Roque-Nublo.jpg"/>
       </div>
     </>
   );
