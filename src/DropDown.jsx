@@ -16,38 +16,38 @@ function DropDown() {
       {/* Botón de activación del menú */}
       <button
         onClick={toggleMenu}
-        className="inline-flex items-center justify-center mr-10 rounded focus:outline-none focus:ring-blue-400"
+        className="mr-10 border rounded-lg border-gray-400"
       >
-        <i className="fa-solid fa-bars" style={{ color: "#9ca3ae" }}></i>
+        <i className="fa-solid fa-bars p-2" style={{ color: "#9ca3ae" }}></i>
       </button>
       {/* Menú desplegable */}
       {isOpen && (
-        <div className="absolute top-10 right-0 w-40 bg-white border border-gray-200 shadow-lg rounded mt-2">
+        <div className="absolute right-0 w-screen bg-slate-700 rounded-b-lg mt-2">
           {/* Opciones del menú */}
           <a
             href="#"
-            className="block px-4 py-2 text-gray-800"
+            className="block px-5 py-2 text-white"
             onClick={closeMenu}
           >
             Home
           </a>
           <a
             href="#"
-            className="block px-4 py-2 text-gray-800"
+            className="block px-5 py-2 text-white"
             onClick={closeMenu}
           >
             About
           </a>
           <a
             href="#"
-            className="block px-4 py-2 text-gray-800"
+            className="block px-5 py-2 text-white"
             onClick={closeMenu}
           >
             Services
           </a>
           <a
             href="#"
-            className="block px-4 py-2 text-gray-800"
+            className="block px-5 py-2 text-white"
             onClick={closeMenu}
           >
             Contact
